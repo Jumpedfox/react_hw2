@@ -1,16 +1,20 @@
+import { PropsCounter } from './widget/widget';
+
 export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
+        margin: 'auto',
+        width: '360px',
+        height: 'fit-content',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
+        fontSize: 30,
+        color: '#010101',
       }}
     >
-      React homework template
+      <PropsCounter />
     </div>
   );
 };

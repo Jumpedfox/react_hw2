@@ -1,0 +1,76 @@
+.section-counter-widget {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .buttons-div {
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        padding-bottom: 20px;
+        background-color: rgb(132, 118, 146);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        border: solid rgb(119, 84, 138);
+        .leave-feedback {
+            width: 100%;
+        }
+
+        button {
+            border: double;
+            cursor: pointer;
+            border-radius: 50px;
+            width: 50px;
+            height: 40px;
+        }
+        
+        button:active {
+            border: solid;
+        }
+        button:nth-child(2) {
+            background-color: rgb(143, 213, 38);
+        }
+        
+        button:nth-child(2):hover {
+            background-color: rgb(172, 255, 47);
+        }
+
+
+        button:nth-child(3) {
+            background-color: rgb(198, 217, 28);
+        }
+
+        button:nth-child(3):hover {
+            background-color: rgb(231, 255, 15);
+        }
+    
+        button:nth-child(4) {
+            background-color: rgb(220, 70, 24);
+        }
+
+        button:nth-child(4):hover {
+            background-color: rgb(255, 82, 29);
+        }
+    
+        button:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+
+    .statistics-div {
+        height: 300px;
+        padding: 0 20px 20px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        background-color: rgb(156, 126, 154);
+        border: solid rgb(119, 84, 138);
+        border-top: none;
+        font-size: 20px;
+        p:first-child {
+            text-align: center;
+            font-size: 30px;
+        }
+    }
+
+}
